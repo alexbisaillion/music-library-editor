@@ -1,33 +1,20 @@
 {
   "files": {
     "main.css": "/music-library-editor/static/css/main.0ae5bd7b.chunk.css",
-    "main.js": "/music-library-editor/static/js/main.40179683.chunk.js",
-    "main.js.map": "/music-library-editor/static/js/main.40179683.chunk.js.map",
+    "main.js": "/music-library-editor/static/js/main.837f4a55.chunk.js",
+    "main.js.map": "/music-library-editor/static/js/main.837f4a55.chunk.js.map",
     "runtime-main.js": "/music-library-editor/static/js/runtime-main.c2d24e81.js",
     "runtime-main.js.map": "/music-library-editor/static/js/runtime-main.c2d24e81.js.map",
-    "static/js/2.ce3b6005.chunk.js": "/music-library-editor/static/js/2.ce3b6005.chunk.js",
-    "static/js/2.ce3b6005.chunk.js.map": "/music-library-editor/static/js/2.ce3b6005.chunk.js.map",
+    "static/js/2.2b7081f0.chunk.js": "/music-library-editor/static/js/2.2b7081f0.chunk.js",
+    "static/js/2.2b7081f0.chunk.js.map": "/music-library-editor/static/js/2.2b7081f0.chunk.js.map",
     "index.html": "/music-library-editor/index.html",
     "static/css/main.0ae5bd7b.chunk.css.map": "/music-library-editor/static/css/main.0ae5bd7b.chunk.css.map",
-    "static/js/2.ce3b6005.chunk.js.LICENSE.txt": "/music-library-editor/static/js/2.ce3b6005.chunk.js.LICENSE.txt",
-    "static/media/csharp.e5f7c80b.svg": "/music-library-editor/static/media/csharp.e5f7c80b.svg",
-    "static/media/dotnet.bd5a42d7.svg": "/music-library-editor/static/media/dotnet.bd5a42d7.svg",
-    "static/media/java.7883010b.svg": "/music-library-editor/static/media/java.7883010b.svg",
-    "static/media/javascript.5ee3c82f.svg": "/music-library-editor/static/media/javascript.5ee3c82f.svg",
-    "static/media/jest.fc868f6d.svg": "/music-library-editor/static/media/jest.fc868f6d.svg",
-    "static/media/materialui.c2794dde.svg": "/music-library-editor/static/media/materialui.c2794dde.svg",
-    "static/media/mongodb.d930c2c4.svg": "/music-library-editor/static/media/mongodb.d930c2c4.svg",
-    "static/media/nodedotjs.6d0ce605.svg": "/music-library-editor/static/media/nodedotjs.6d0ce605.svg",
-    "static/media/react.8e63d418.svg": "/music-library-editor/static/media/react.8e63d418.svg",
-    "static/media/redux.a80e92c3.svg": "/music-library-editor/static/media/redux.a80e92c3.svg",
-    "static/media/selenium.d774c951.svg": "/music-library-editor/static/media/selenium.d774c951.svg",
-    "static/media/styledcomponents.cd1aef9a.svg": "/music-library-editor/static/media/styledcomponents.cd1aef9a.svg",
-    "static/media/typescript.1b46c028.svg": "/music-library-editor/static/media/typescript.1b46c028.svg"
+    "static/js/2.2b7081f0.chunk.js.LICENSE.txt": "/music-library-editor/static/js/2.2b7081f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c2d24e81.js",
-    "static/js/2.ce3b6005.chunk.js",
+    "static/js/2.2b7081f0.chunk.js",
     "static/css/main.0ae5bd7b.chunk.css",
-    "static/js/main.40179683.chunk.js"
+    "static/js/main.837f4a55.chunk.js"
   ]
 }
