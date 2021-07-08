@@ -5,15 +5,10 @@ import BackspaceIcon from "@material-ui/icons/Backspace";
 import MenuIcon from "@material-ui/icons/Menu";
 import WbSunny from "@material-ui/icons/WbSunny";
 import NightsStay from "@material-ui/icons/NightsStay";
-import HomeIcon from "@material-ui/icons/Home";
-import WorkIcon from "@material-ui/icons/Work";
-import CategoryIcon from "@material-ui/icons/Category";
 import Settings from "@material-ui/icons/Settings";
 import LockOpenIcon from "@material-ui/icons/LockOpen";
 import LockIcon from "@material-ui/icons/Lock";
-import Github from "@material-ui/icons/GitHub";
-import LinkedIn from "@material-ui/icons/LinkedIn";
-import Mail from "@material-ui/icons/Mail";
+import Album from "@material-ui/icons/Album";
 
 type IconProps = {
   size?: "small" | "inherit" | "large" | "default";
@@ -37,15 +32,6 @@ export const LightModeIcon = ({ size }: IconProps) => (
 export const DarkModeIcon = ({ size }: IconProps) => (
   <NightsStay fontSize={size} />
 );
-export const HomePageIcon = ({ size }: IconProps) => (
-  <HomeIcon fontSize={size} />
-);
-export const ExperienceIcon = ({ size }: IconProps) => (
-  <WorkIcon fontSize={size} />
-);
-export const ProjectsIcon = ({ size }: IconProps) => (
-  <CategoryIcon fontSize={size} />
-);
 export const SettingsIcon = ({ size }: IconProps) => (
   <Settings fontSize={size} />
 );
@@ -53,8 +39,4 @@ export const LoginIcon = ({ size }: IconProps) => (
   <LockOpenIcon fontSize={size} />
 );
 export const LogoutIcon = ({ size }: IconProps) => <LockIcon fontSize={size} />;
-export const GitHubIcon = ({ size }: IconProps) => <Github fontSize="large" />;
-export const LinkedInIcon = ({ size }: IconProps) => (
-  <LinkedIn fontSize={size} />
-);
-export const MailIcon = ({ size }: IconProps) => <Mail fontSize={size} />;
+export const AlbumIcon = ({ size }: IconProps) => <Album fontSize={size} />;

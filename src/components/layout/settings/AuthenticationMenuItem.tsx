@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { useAuthentication } from "../../../context/authentication-context";
 import { DialogType, useDialog } from "../../../context/dialogs-context";
-import { MenuItem } from "../../common/menus/MenuListItem";
+import { MenuItem } from "../../common/menus/MenuItem";
 import { LoginIcon, LogoutIcon } from "../../icons/material-icons";
 
 export const AuthenticationMenuItem = forwardRef<HTMLLIElement>(

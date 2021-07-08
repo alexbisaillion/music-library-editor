@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { ArtistParamsResult, createArtist } from "../../../api/storage";
-import { Artist } from "../../../api/types";
-import { TextInput } from "../../common/forms/TextInput";
-import { CreateIcon } from "../../icons/material-icons";
+import { ArtistParamsResult, createArtist } from "../../../../api/storage";
+import { Artist } from "../../../../api/types";
+import { TextInput } from "../../../common/forms/TextInput";
+import { CreateIcon } from "../../../icons/material-icons";
 
 type SelectArtistProps = {
   artistParams: ArtistParamsResult;

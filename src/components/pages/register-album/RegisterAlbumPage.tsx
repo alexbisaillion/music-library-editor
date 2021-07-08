@@ -1,23 +1,11 @@
 import { useState } from "react";
-import styled from "styled-components";
 import { AlbumParamsResponse, getAlbumParams } from "../../../api/storage";
 import { Artist, Release } from "../../../api/types";
 import { PageContainer } from "../../common/Page";
-import { FetchAlbum } from "./FetchAlbum";
-import { SelectRelease } from "./SelectRelease";
-import { SelectArtists } from "./SelectReleaseArtists";
-import { TrackInputs } from "./TrackInputs";
-
-const RegisterAlbumContainer = styled.div`
-  display: flex;
-  padding-top: 60px;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  && > * {
-    margin: 8px;
-  }
-`;
+import { FetchAlbum } from "./sub-components/FetchAlbum";
+import { SelectRelease } from "./sub-components/SelectRelease";
+import { SelectArtists } from "./sub-components/SelectReleaseArtists";
+import { TrackInputs } from "./sub-components/TrackInputs";
 
 export enum RegisterAlbumState {
   InputSpotifyId,
@@ -26,7 +14,7 @@ export enum RegisterAlbumState {
   CreateTracks,
 }
 
-export const RegisterAlbum = () => {
+export const RegisterAlbumPage = () => {
   const [registerAlbumState, setRegisterAlbumState] = useState(
     RegisterAlbumState.InputSpotifyId
   );
@@ -154,12 +142,10 @@ export const RegisterAlbum = () => {
 
   return (
     <PageContainer>
-      <RegisterAlbumContainer>
-        {renderFetchAlbum()}
-        {renderInputAlbumArtists()}
-        {renderInputRelease()}
-        {renderTrackInputs()}
-      </RegisterAlbumContainer>
+      {renderFetchAlbum()}
+      {renderInputAlbumArtists()}
+      {renderInputRelease()}
+      {renderTrackInputs()}
     </PageContainer>
   );
 };

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { TrackParamsResult } from '../../../api/storage';
-import { Artist } from '../../../api/types';
-import { SelectArtists } from './SelectReleaseArtists';
-import { SelectTrack } from './SelectTrack';
+import styled from "styled-components";
+import { TrackParamsResult } from "../../../../api/storage";
+import { Artist } from "../../../../api/types";
+import { SelectArtists } from "./SelectReleaseArtists";
+import { SelectTrack } from "./SelectTrack";
 
 const TrackInputContainer = styled.div`
   display: flex;
@@ -33,7 +33,12 @@ export const TrackInput = (props: TrackInputProps) => {
       return <></>;
     }
 
-    return <SelectArtists artistsParams={trackParams.spotifyTrack.artists} addArtist={addArtist} />;
+    return (
+      <SelectArtists
+        artistsParams={trackParams.spotifyTrack.artists}
+        addArtist={addArtist}
+      />
+    );
   };
 
   return (

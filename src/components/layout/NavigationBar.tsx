@@ -57,7 +57,7 @@ export const NavigationBar = () => {
         <AppBar position="fixed">
           <Toolbar variant="dense">
             <MenuIconButton onClick={toggleSidebar} icon={<MenuToggleIcon />} />
-            <StyledHeading text="Alex Bisaillion" />
+            <StyledHeading text="Music Library Editor" />
             {pathDisplay && (
               <>
                 <StyledDivider orientation="vertical" color="textSecondary" />

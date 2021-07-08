@@ -6,11 +6,7 @@ import {
   ListItemText,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import {
-  ExperienceIcon,
-  HomePageIcon,
-  ProjectsIcon,
-} from "../icons/material-icons";
+import { AlbumIcon } from "../icons/material-icons";
 
 type LeftSidebarProps = {
   isOpen: boolean;
@@ -23,33 +19,16 @@ export const LeftSidebar = (props: LeftSidebarProps) => {
     <Drawer anchor="left" open={isOpen} onClose={toggleSidebar}>
       <div role="presentation">
         <List>
-          <ListItem button component={Link} to="/" onClick={toggleSidebar}>
-            <ListItemIcon>
-              <HomePageIcon />
-            </ListItemIcon>
-            <ListItemText primary="Home" />
-          </ListItem>
           <ListItem
             button
             component={Link}
-            to="/experience"
+            to="/register-album"
             onClick={toggleSidebar}
           >
             <ListItemIcon>
-              <ExperienceIcon />
+              <AlbumIcon />
             </ListItemIcon>
-            <ListItemText primary="Experience" />
-          </ListItem>
-          <ListItem
-            button
-            component={Link}
-            to="/projects"
-            onClick={toggleSidebar}
-          >
-            <ListItemIcon>
-              <ProjectsIcon />
-            </ListItemIcon>
-            <ListItemText primary="Projects" />
+            <ListItemText primary="Register Album" />
           </ListItem>
         </List>
       </div>

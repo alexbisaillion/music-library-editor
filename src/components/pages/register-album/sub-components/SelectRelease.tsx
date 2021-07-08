@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { createRelease, ReleaseParamsResult } from "../../../api/storage";
-import { Release, ReleaseType } from "../../../api/types";
-import { TextInput } from "../../common/forms/TextInput";
-import { CreateIcon } from "../../icons/material-icons";
+import { createRelease, ReleaseParamsResult } from "../../../../api/storage";
+import { Release, ReleaseType } from "../../../../api/types";
+import { TextInput } from "../../../common/forms/TextInput";
+import { CreateIcon } from "../../../icons/material-icons";
 
 type SelectReleaseProps = {
   releaseParams: ReleaseParamsResult;

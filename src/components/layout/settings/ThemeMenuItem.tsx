@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { useTheme } from "../../../context/theme-context";
-import { MenuItem } from "../../common/menus/MenuListItem";
+import { MenuItem } from "../../common/menus/MenuItem";
 import { DarkModeIcon, LightModeIcon } from "../../icons/material-icons";
 
 export const ThemeMenuItem = forwardRef<HTMLLIElement>((_props, ref) => {

@@ -3,13 +3,13 @@ import {
   createManyTracks,
   TrackParamsResult,
   CreateTrackParams,
-} from "../../../api/storage";
-import { Artist, Release } from "../../../api/types";
-import { TextInput } from "../../common/forms/TextInput";
-import { StripIcon } from "../../icons/material-icons";
+} from "../../../../api/storage";
+import { Artist, Release } from "../../../../api/types";
+import { TextInput } from "../../../common/forms/TextInput";
+import { StripIcon } from "../../../icons/material-icons";
 import { TrackInput } from "./TrackInput";
 import produce from "immer";
-import { TextButton } from "../../common/forms/TextButton";
+import { TextButton } from "../../../common/forms/TextButton";
 
 type TrackInputsProps = {
   tracksParams: TrackParamsResult[];

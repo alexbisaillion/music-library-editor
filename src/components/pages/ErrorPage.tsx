@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { PageContainer } from '../common/Page';
+import styled from "styled-components";
+import { PageContainer } from "../common/Page";
+import { Heading } from "../common/text/Heading";
 
 const ErrorContainer = styled.div`
   display: flex;
@@ -15,7 +16,7 @@ export const ErrorPage = () => {
   return (
     <PageContainer>
       <ErrorContainer>
-        <p>404</p>
+        <Heading text="401: Unauthorized" />
       </ErrorContainer>
     </PageContainer>
   );
